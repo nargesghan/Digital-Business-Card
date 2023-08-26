@@ -1,21 +1,20 @@
 
 import React from "react";
 import Typography from "@mui/material/Typography";
-import theme from "../assets/theme";
-import { ThemeProvider, Paper } from "@mui/material";
+
 import { Box ,Link} from "@mui/material";
 
 const header = () => {
   return (
     
-      <ThemeProvider theme={theme}>
-        {" "}
+    
+      <>
         
        
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDQ2ZfHBDvkz3yW_peCZ2ZsAJMqtdN1ETmsQ&usqp=CAU"
               alt="profile image"
-              
+              width={317}
             />
             <Typography variant="h1" component="h1" >
               Narges Ghanbari
@@ -28,8 +27,8 @@ const header = () => {
             </Typography>
             <Link variant="p" href="googl.com" underline="hover" sx={{fontFamily:"Iner",fontWeight:400,color:"#4A4E74",fontSize:13,marginBottom:2}}>narges.com</Link>
           
-          
-      </ThemeProvider>
+            </>
+    
     
   );
 };
