@@ -3,7 +3,7 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import theme from "../assets/theme";
 import { ThemeProvider, Paper } from "@mui/material";
-import { Box } from "@mui/material";
+import { Box ,Link} from "@mui/material";
 
 const header = () => {
   return (
@@ -34,6 +34,7 @@ const header = () => {
             <Typography variant="h3" component="h3" >
             
             </Typography>
+            <Link variant="p" href="googl.com" underline="hover" sx={{fontFamily:"Iner",fontWeight:400,color:"#4A4E74",fontSize:10,}}>narges.com</Link>
           </Box>
           
       </ThemeProvider>

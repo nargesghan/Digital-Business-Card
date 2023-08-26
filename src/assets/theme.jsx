@@ -1,6 +1,9 @@
 import { createTheme } from "@mui/material";
 
 const theme = createTheme({
+  typography: {
+    fontFamily: ["Inter", "Roboto"].join(","),
+  },
   components: {
     MuiTypography: {
       variants: [
@@ -12,7 +15,7 @@ const theme = createTheme({
             letterSpacing: 0,
             textAlign: "center",
             color: "#2B283A",
-            fontFamily: ["Inter", "Roboto"].join(","),
+           
           },
         },
         {
@@ -23,7 +26,7 @@ const theme = createTheme({
               letterSpacing: 0,
               textAlign: "center",
               color: "#F47D27",
-              fontFamily: ["Inter", "Roboto"].join(","),
+             
             },
           },
           
